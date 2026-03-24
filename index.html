@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To The Love of My Life</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Canvas for floating hearts -->
+  <canvas id="heartCanvas"></canvas>
+
+  <header id="hero">
+    <div class="glass-panel fade-in-up">
+      <h1 class="title">To My Universe</h1>
+      <p class="subtitle">Every moment with you is a beautiful dream.</p>
+      <button class="scroll-down-btn" onclick="scrollToSection('message')">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m6 9 6 6 6-6" />
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <section id="message" class="section">
+    <div class="glass-card reveal">
+      <h2>Why I'm So Lucky</h2>
+      <div class="divider"></div>
+      <p>I still can't believe how incredibly lucky I am to have you in my life. You bring light into my darkest days
+        and make the good days even brighter. Your smile is my favorite sight, and your voice is my favorite sound.</p>
+      <p>Thank you for being exactly who you are. I promise to cherish you, adore you, and love you more and more with
+        every passing day.</p>
+      <p class="signature">- Yours forever ❤️</p>
+    </div>
+  </section>
+
+  <section id="gallery" class="section">
+    <div class="section-title reveal">
+      <h2>Our Beautiful Memories</h2>
+      <p>Just a glimpse of our perfect moments.</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item reveal">
+        <video src="assets/vid1.mp4" autoplay loop muted playsinline aria-label="Memory 1"></video>
+        <div class="overlay">Can't wait to make a million more of these with you, Dhwanaa</div>
+      </div>
+      <div class="gallery-item reveal pointer-delay-1">
+        <video src="assets/vid2.mp4" autoplay loop muted playsinline aria-label="Memory 2"></video>
+        <div class="overlay">Life is just better when you're in the frame.</div>
+      </div>
+      <div class="gallery-item reveal pointer-delay-2">
+        <video src="assets/vid3.mp4" autoplay loop muted playsinline aria-label="Memory 3"></video>
+        <div class="overlay">Forever together</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made with all my heart ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
