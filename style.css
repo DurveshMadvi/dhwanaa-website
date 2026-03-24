@@ -316,8 +316,17 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
-  .title { font-size: 3rem; }
-  .glass-card { padding: 3rem 2rem; }
-  .glass-card h2 { font-size: 2.5rem; }
-  .section { padding: 5rem 1.5rem; }
+  .title { font-size: 2.5rem; }
+  .subtitle { font-size: 1rem; margin-bottom: 2rem; }
+  .glass-panel { padding: 2.5rem 1.5rem; width: 95%; border-radius: 16px; }
+  .glass-card { padding: 2.5rem 1.5rem; border-radius: 20px; }
+  .glass-card h2 { font-size: 2rem; }
+  .glass-card p { font-size: 1rem; }
+  .section { padding: 4rem 1.25rem; }
+  .section-title h2 { font-size: 2.2rem; }
+  .section-title p { font-size: 1rem; }
+  .gallery-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+  /* Make videos fit nicely vertically on mobile */
+  .gallery-item { aspect-ratio: 3/4; border-radius: 16px; }
+  .gallery-item .overlay { font-size: 1.2rem; padding: 2rem 1.5rem 1rem; }
 }
